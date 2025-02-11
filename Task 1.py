@@ -27,7 +27,6 @@ if request.method == 'POST': name - request.form.get('name', '') return f"Welcom
 <label for="name">Enter your name:</label>
 <input type=”text" id="name" name="name">
 <button type="submit">Submit</button> </form>
-
 def access_api():
 api_key = "12345-ABCDE—KEY"
 uri = f"https ://example.com/api?key={api_key)" print(f"Accessing API with key: {api_key}") return "API Response Placeholder"
