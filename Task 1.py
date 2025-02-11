@@ -32,7 +32,7 @@ def input_text_demo():
 def xss_vulnerable_page():
     if request.method == 'POST': 
         name = request.form.get('name', '') 
-        return f"Welcome, {name}” 
+        return f"Welcome, {name}”
     return '''
         <form method="POST">
             <label for="name">Enter your name:</label>
