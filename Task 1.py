@@ -99,5 +99,5 @@ def calculate_discount(price, discount):
 def input_demo():
     price = float(input("Enter the price"))
     discount = float(input("Enter the discount percentage"))
-    print(f"Final price: {calculate_discount{price, discount}}")
+    print(f"Final price: {calculate_discount(price, discount)}")
 
